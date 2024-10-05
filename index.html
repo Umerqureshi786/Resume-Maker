@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Resume Maker</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+
+
+        <form id="wholeform">
+            <div id="Peronalinfo">
+                <label> First Name:<input type="text" class="fname"></label>
+                <label> Last Name:<input type="text" class="lname"></label> <br> <br>
+
+                <label> Email: <input type="email" name="email" id="email" placeholder="abc@gmail.com" required></label>
+                <label>Date of birth:<input type="date" class="dob" name="dob"></label> <br> <br>
+
+                <label> Contact#: <input type="number" class="number" name="number"></label>
+                <label> Gender: <input type="radio" name="gender" class="radio">Male</label> 
+                <label><input type="radio" name="gender" class="radio">Female</label> <br> <br>
+                
+                <label> Marital Status: <input type="radio" name="Maritalstatus"> Single </label>
+                <label> <input type="radio" name="Maritalstatus"> Married </label>
+                <label> <input type="radio" name="Maritalstatus"> Divorced </label>
+                <label> Address: <textarea name="Address" class="Address"></textarea></label>
+            </div>
+    </fieldset>
+
+    </form>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
