@@ -1,8 +1,103 @@
-legend{
-    font-weight: bolder;
-    color: blue;
+html,
+body {
+    height: 100%;
+    margin: 0%;
+    /* padding: 10%; */
 }
 
-#Peronalinfo{
-    background-color: beige;
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(11, 11, 157);
+    background-color: rgb(176, 213, 238);
+    /* border: 1px solid black; */
+    text-decoration: underline;
+
+}
+/* 
+h2 {
+    color: rgb(11, 11, 157);
+} */
+
+#formdiv {
+    color: rgb(6, 6, 166);
+    font-weight: bold;
+    border: 1px solid rgb(19, 81, 249);
+    box-shadow: gray;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 500px;
+    /* background-color: rgb(177, 200, 233); */
+    /* background-image: url(blur-hospital-clinic-interior.jpg); */
+    background-size: cover;
+    /* font-size: larger; */
+}
+
+a {
+    position: absolute;
+    top: 65%;
+    right: 50%;
+
+}
+
+button {
+    width: 4rem;
+}
+
+
+
+.Education,
+.skills,
+.Experience {
+    /* background-color: rgb(16, 115, 82); */
+    border: 1.5px solid rgb(23, 79, 220);
+    border-radius: 12px;
+    margin: 32px;
+
+}
+
+
+.degree {
+    /* background-color: beige; */
+    font-weight: bold;
+
+}
+
+.grade {
+    /* background-color: beige; */
+    font-weight: bold;
+
+}
+
+
+.unicolname {
+    /* background-color: aqua; */
+    font-weight: bold;
+
+}
+
+
+
+.Education>div {
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+
+/* .skills>.skilldetais{
+    display: flex;
+    justify-content: center;
+} */
+
+#skilltextarea,
+#Experiencetextarea {
+    display: flex;
+    justify-content: center;
 }
