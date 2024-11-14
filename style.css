@@ -43,16 +43,24 @@ h2 {
 }
 
 a {
-    position: absolute;
+    position:fixed;
     top: 65%;
-    right: 50%;
+    right: 30%;
 
 }
+
+
 
 button {
-    width: 4rem;
+    width: 8rem;
 }
 
+.submitbutton{
+    width: 4rem;
+    margin-top:28%;
+    margin-left: 50%;
+    position:fixed;
+}
 
 
 .Education,
@@ -79,7 +87,7 @@ button {
 }
 
 
-.unicolname {
+.unicolgname {
     /* background-color: aqua; */
     font-weight: bold;
 
@@ -97,6 +105,22 @@ button {
 #Experiencetextarea {
     display: flex;
     justify-content: center;
+}
+
+
+button.createresume{
+    margin-left: 47%;
+    height: 2rem;
+    /* border: 2px white solid; */
+    border-radius: 6px;
+    background-color:rgb(23, 79, 220);
+    color: white;
+    font-weight: bold;
+}
+
+button.createresume:hover{
+    background-color:rgb(176, 213, 238);
+    color:black;
 }
 
 

@@ -12,39 +12,50 @@
     <div class="Education">
         <h1>Education</h1>
         <div class="degree">Degree Name:
-            <select name="selection" id="select">
-                <option value="">Matric</option>
-                <option value="">Intermediate</option>
-                <option value="">Bachelors</option>
-                <option value="">Masters</option>
+            <select name="selection" id="Degreeoptions">
+                <option>Matric</option>
+                <option>Intermediate</option>
+                <option>Bachelors</option>
+                <option>Masters</option>
+                <option>Phd</option>
+
             </select>
         </div>
 
         <br> <br>
-        <div class="grade">
-            <label>Grade Obtained: <input type="radio" name="grade">A</label>
-            <label> <input type="radio" name="grade">B</label>
-            <label> <input type="radio" name="grade">C</label>
-            <label> <input type="radio" name="grade">D</label>
-        </div>
-        <br><br>
-        <div class="unicolname">
+      
+
+
+        <div class="unicolgname">
             University College Name:
 
             <select name="selection" id="select">
-                <option value="">H.M School</option>
-                <option value="">Guardian School</option>
-                <option value="">Lady Bird School</option>
-
-                <option value="">Beacon House School</option>
-                <option value="">Aisha Bawani College</option>
-                <option value="">D.J College</option>
-                <option value="">F.H College</option>
-                <option value="">Karachi University</option>
-                <option value="">Ned University</option>
+                <option >H.M School</option>
+                <option >Guardian School</option>
+                <option >Lady Bird School</option>
+                <option >Iqra Jamia School</option>
+                <option >Beacon House School</option>
+                <option >Aisha Bawani College</option>
+                <option >D.J College</option>
+                <option >F.H College</option>
+                <option >Karachi University</option>
+                <option >Ned University</option>
             </select>
 
         </div>
+
+<br><br>
+
+        <div class="grade">
+            <label>Grade Obtained: <input type="text" name="grade" id="gradeobtain">  </label>
+            <!-- <label> <input type="radio" name="grade">B</label>
+            <label> <input type="radio" name="grade">C</label>
+            <label> <input type="radio" name="grade">D</label> -->
+        </div>
+        <br><br>
+
+
+
     </div>
 
 
@@ -54,7 +65,7 @@
     <div class="skills">
         <h1>Skills</h1>
         <div id="skilltextarea">
-            <label class="skilldetais"> Write About Skills: <br><textarea name="skilldetais"></textarea> </label>
+            <label class="skilldetails"> Write About Skills: <br><textarea name="skilldetails" id="skilldetails"></textarea> </label>
         </div>
 
     </div>
@@ -64,15 +75,18 @@
 
         <h1>Work Experience</h1>
         <div id="Experiencetextarea">
-            <label class="Experiencedetails"> Write Your Experience: <br><textarea name="Experience"></textarea> </label>
+            <label class="Experiencedetails"> Write Your Experience: <br><textarea id="experience" name="Experience"></textarea>
+            </label>
         </div>
 
     </div>
 
+    <button class="createresume" onclick="createResume()">Create Resume</button>
 
-
-
+    <script src="app.js"></script>
 
 </body>
 
+
 </html>
+

@@ -12,16 +12,15 @@
     <h1>Resume Maker</h1>
     <div id="formdiv">
         <form id="form">
+
             <h1>Personal Information</h1>
-            <Label>Enter First Name: <br> <input type="text" name="Firstname" class="fname"></Label> <br> <br>
-            <label>Enter Last Name: <br> <input type="text" name="Lastname" class="lname"> </label> <br> <br>
+            <Label>Enter Your Name: <br> <input type="text" name="Firstname" id="fname"></Label> <br> <br>
+            <!-- <label>Enter Last Name: <br> <input type="text" name="Lastname" class="lname"> </label> <br> <br> -->
             <label> Enter Email: <br> <input type="email" name="email" id="email"></label> <br> <br>
             <label>Date of birth: <br> <input type="date" name="Dob" id="Dob"></label> <br> <br>
             <label>Contact #: <br> <input type="tel" name="Contact" id="Contact"></label> <br> <br>
             <label> Address: <br> <textarea name="address" id="address"></textarea></label> <br> <br>
             <label>Picture: <br> <input type="file" type="image" accept=".jpeg"></label>
-
-
 
         </form>
 
@@ -30,6 +29,9 @@
 
     <a href="education.html"> <button>Next</button></a>
 
+
+
+    <button class="submitbutton" onclick="getformdata()">Submit</button>
 
 
 
